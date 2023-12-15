@@ -48,7 +48,7 @@ session_start();
 					<?php
 				}
 							?>
-						<span class="glyphicon glyphicon-search"></span>CART
+						<span class="glyphicon glyphicon-shopping-cart"></span>CART
 						(<?php
 							$ok = 1;
 							if (isset($_SESSION['cart'])) {
