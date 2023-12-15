@@ -55,6 +55,9 @@ if (isset($_POST['dangki'])) {
     } else {
         $sql = "INSERT INTO user(tendangnhap,hotenuser,email,matkhau)
                     VALUES('$username1','$hoten','$email','$pass1')";
+        if(strlen($pass) < 6){
+            $kq2 ="Mật khẩu quá yếu";
+        }
         if (mysqli_query($conn, $sql)) {
             $username1 = "";
             $hoten = "";
