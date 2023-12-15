@@ -61,8 +61,8 @@ include 'menu.php';
 							</div>
 							<div class="info">
 								<ul>
-									<li>Tác giả: <b></b></li>
-									<li>Nhà xuất bản: <a href=""></a>
+									<li>Tác giả: <b><?php echo $row["tacgia"] ?> </b></li>
+									<li>Nhà xuất bản: <a href=""><?php echo $row["nxb_name"] ?> </a>
 										<h3>
 									</li>
 								</ul>
