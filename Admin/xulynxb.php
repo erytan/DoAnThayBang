@@ -17,7 +17,7 @@ if(isset($_POST['add']))
 
  ?>
  <?php
- //xoa nhà xuat ban
+ //sua nhà xuat ban
  if(isset($_POST['sua'])){
     $name = $_POST['name'];
     $id = $_POST['id'];
