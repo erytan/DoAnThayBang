@@ -26,7 +26,7 @@ if (isset($_POST['submit'])) {
     }
     else if($result1->num_rows > 0){
         while ($row = $result1->fetch_assoc()){
-        $_SESSION['tendangnhap'] = $username;
+        $_SESSION['txtusername'] = $username;
         echo "<script>window.location.replace('http://localhost:3000/Admin/index.php'); </script>";
         $row = $result1->fetch_assoc();
         }
