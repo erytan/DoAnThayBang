@@ -3,13 +3,6 @@ include "head.php";
 include "header.php";
 include "menu.php";
 ob_start();
-session_start();
-$admin = $_SESSION['txtusername'];
-if($admin != "admin") {
-    echo "<script>window.location.replace('http://localhost:3000/index.php'); </script>";
-}else{
-    
-}
 ?>
 
 <body class="hold-transition skin-blue sidebar-mini">
